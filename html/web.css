@@ -1,0 +1,111 @@
+@charset "utf-8";
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	list-style:none;
+	text-decoration:none;
+	font-style:normal;
+	font-family:'나눔고딕','Nanum Gothic',ng;
+	font-size:12px;
+	-webkit-font-smoothing:antialiased;
+}
+/*body{
+	background-image: url("../img/bg.jpg");
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}*/
+.blind{
+	overflow:hidden;
+	position:absolute;
+	top:0;
+	left:0;
+	width:1px;
+	height:1px;
+	font-size:0;
+	line-height:0;
+}
+html, body{
+	height:100%;
+	width:100%;
+	min-width:300px;
+	min-height:200px;
+}
+.login{
+	width:400px;
+	height:288px;
+	/*background-color:transparent;*/
+	background-color:#fff;
+	box-sizing:border-box;
+	padding-left:50px;
+	padding-right:50px;
+	/*border-radius:6px;*/
+	box-sizing:border-box;
+	/*border:2px solid #d3d3d3;*/
+}
+.logo{
+	float:left;
+	width:300px;
+	height:88px;
+}
+.login_wrapper{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100vh;
+}
+.loginbox{
+	width:300px;
+	height:200px;
+	float:left;
+}
+.id_area,.pw_area{
+	width:300px;
+	height:60px;
+	float:left;
+	line-height:40px;
+	vertical-align:middle;
+}
+input{
+	vertical-align:middle;
+	line-height:40px;
+	font-size:18px;
+	width:300px;
+}
+#id, #pw{
+	margin:10px 0px 10px 0px;
+	box-sizing:border-box;
+	padding-left:5px;
+	border-bottom:2px solid #d3d3d3;
+}
+input:focus{
+	outline:none;
+	border:0;
+}
+.submit_btn{
+	width:300px;
+	float:left;
+}
+.submit_btn input{
+	width:200px;
+	margin:0px 50px 0px 50px;
+	border-radius:10px;
+	vertical-align:middle;
+}
+.idpw{
+	width:300px;
+	float:left;
+	height:40px;
+}
+.signup, .idpwlookup{
+	width:150px;
+	float:left;
+	vertical-align:middle;
+	text-align:center;
+	height:40px;
+}
+a{
+	color:#000;
+	line-height:40px;
+}
